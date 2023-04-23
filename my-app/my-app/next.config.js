@@ -1,7 +1,3 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-  pagesDir: 'src/pages',
 };
-
-module.exports = nextConfig;
