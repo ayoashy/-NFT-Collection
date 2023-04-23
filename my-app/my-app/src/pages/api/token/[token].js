@@ -7,6 +7,5 @@ export default function handler(req, res) {
   const image = `https://raw.githubusercontent.com/LearnWeb3DAO/NFT-Collection/main/my-app/public/cryptodevs/${
     Number(tokenId) - 1
   }.svg`;
-
   res.status(200).json({ name, description, image });
 }
