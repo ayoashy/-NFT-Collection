@@ -187,7 +187,7 @@ export default function Home() {
 
       onPageLoad();
     }
-  }, [walletConnected]);
+  });
 
   function renderBody() {
     if (!walletConnected) {
@@ -258,8 +258,8 @@ export default function Home() {
       </Head>
       <div className='main'>
         <div>
-          <h1 className='title'>Welcome to cryptoDev NFT's</h1>
-          <h1 className='title'>Welcome to cryptoDev NFT&apos;s</h1>
+          {/* <h1 className='title'>Welcome to cryptoDev NFT's</h1> */}
+          <h1 className='title'>Welcome to cryptoDev NFTs</h1>
 
           <span className='description'>
             CryptoDev is an NFT-Collection for web3 developers
